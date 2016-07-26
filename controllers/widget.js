@@ -32,6 +32,7 @@ $.setTitleMode = function() {
 		duration: args.animationsDuration,
 		transform: identityMatrix
 	});
+	$.cfn_searchBarText.blur();
 	$.cfn_searchBarText.value = '';
 };
 

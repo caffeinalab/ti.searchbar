@@ -8,6 +8,6 @@
 	"license":"MIT",
 	"min-alloy-version": "1.0",
 	"min-titanium-version":"3.0",
-	"tags":"loader,loading,indicator",
+	"tags":"search,searchbar,bar,navigation",
 	"platforms":"android,ios"
 }
