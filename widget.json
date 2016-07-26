@@ -1,0 +1,13 @@
+{
+	"id": "com.caffeina.titanium.searchbar",
+	"name": "Ti.Searchbar",
+	"description" : "Titanium Widget to display a search bar.",
+	"author": "Flavio De Stefano",
+	"version": "1.0.0",
+	"copyright":"Copyright (c) 2016",
+	"license":"MIT",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"3.0",
+	"tags":"loader,loading,indicator",
+	"platforms":"android,ios"
+}

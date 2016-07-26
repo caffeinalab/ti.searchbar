@@ -1,0 +1,17 @@
+<Alloy>
+	<View class="cfn_searchBarWrapper" id="cfn_searchBarWrapper">
+
+		<View class="cfn_searchBarTitle">
+			<Label class="cfn_searchBarTitleLabel" id="cfn_searchBarTitleLabel"  />
+			<Button class="cfn_searchBarTitleIcon" id="cfn_searchBarTitleIcon"  />
+		</View>
+
+		<View class="cfn_searchBarSearch" id="cfn_searchBarSearch">
+			<View class="cfn_searchBarTextWrapper" id="cfn_searchBarTextWrapper">
+				<TextField class="cfn_searchBarText" id="cfn_searchBarText" />
+			</View>
+			<Button class="cfn_searchBarCancel" id="cfn_searchBarCancel" />
+		</View>
+
+	</View>
+</Alloy>

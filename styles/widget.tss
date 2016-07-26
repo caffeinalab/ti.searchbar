@@ -1,0 +1,33 @@
+".cfn_searchBarWrapper":{
+	width: 600, // a large value, not really defined
+},
+".cfn_searchBarTitle":{
+	width: Ti.UI.FILL
+},
+".cfn_searchBarTitleIcon":{
+	width: 40,
+	height: 40,
+	right: 0,
+	image: WPATH('/images/search.png')
+},
+".cfn_searchBarTextWrapper":{
+	backgroundColor: "#2000",
+	borderRadius: 15,
+	width: Ti.UI.FILL,
+	height: 30,
+	left: 0,
+	right: 60
+},
+".cfn_searchBarText":{
+	width: Ti.UI.FILL,
+	left: 10,
+	right: 90,
+	hintText: L("Search"),
+	font:{fontSize:14}
+},
+".cfn_searchBarCancel":{
+	width: 60,
+	right: 0,
+	title: L("Cancel"),
+	font: {fontSize:12}
+}
