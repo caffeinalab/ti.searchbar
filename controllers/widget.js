@@ -62,6 +62,8 @@ $.cfn_searchBarTitleIcon.addEventListener('click', function(e) {
 
 $.cfn_searchBarCancel.addEventListener('click', function() {
 	$.setTitleMode();
+
+	$.cfn_searchBarText.blur();
 });
 
 // Events to forward
