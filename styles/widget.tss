@@ -1,4 +1,4 @@
-".cfn_searchBarWrapper":{
+".cfn_searchBarWrapper[formFactor=handheld]":{
 	width: 600, // a large value, not really defined
 },
 ".cfn_searchBarTitle":{
