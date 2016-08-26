@@ -66,7 +66,7 @@ $.cfn_searchBarCancel.addEventListener('click', function() {
 
 // Events to forward
 
-_.each(['keypressed', 'return', 'blur', 'change'], function(evtName) {
+_.each(['keypressed', 'return', 'blur', 'change', 'focus'], function(evtName) {
 	$.cfn_searchBarText.addEventListener(evtName, function(e) {
 		$.trigger(evtName, e);
 	});
