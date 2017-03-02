@@ -52,6 +52,10 @@ $.setSearchMode = function() {
 	$.cfn_searchBarText.focus();
 };
 
+$.blur = function() {
+	$.cfn_searchBarTitleLabel.blur();
+};
+
 ///////////////
 // Listeners //
 ///////////////
@@ -80,3 +84,27 @@ _.each(['keypressed', 'return', 'blur', 'change', 'focus'], function(evtName) {
 
 $.cfn_searchBarSearch.opacity = 0;
 $.cfn_searchBarTitleLabel.text = args.title;
+
+//Logger.error($.cfn_searchBarTitle.convertPointToView({x: $.cfn_searchBarTitle.top, y:1}, $parent));
+$.cfn_searchBarTitle.addEventListener("postlayout", function pl() {
+	$.cfn_searchBarTitle.removeEventListener("postlayout", pl);
+
+	var actualWidth = $.cfn_searchBarTitle.rect.width;
+	if (actualWidth < Alloy.Globals.SCREEN_WIDTH) {
+		var leftspace = (Alloy.Globals.SCREEN_WIDTH - actualWidth);
+		$.cfn_searchBarTitleLabel.left = leftspace;
+	}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
