@@ -1,7 +1,7 @@
 <Alloy>
 	<View class="cfn_searchBarWrapper" id="cfn_searchBarWrapper">
 
-		<View class="cfn_searchBarTitle">
+		<View class="cfn_searchBarTitle" id="cfn_searchBarTitle">
 			<Label class="cfn_searchBarTitleLabel" id="cfn_searchBarTitleLabel"  />
 			<Button class="cfn_searchBarTitleIcon" id="cfn_searchBarTitleIcon"  />
 		</View>
