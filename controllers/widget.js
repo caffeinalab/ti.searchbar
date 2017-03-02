@@ -53,7 +53,8 @@ $.setSearchMode = function() {
 };
 
 $.blur = function() {
-	$.cfn_searchBarTitleLabel.blur();
+	$.setTitleMode();
+	$.cfn_searchBarText.blur();
 };
 
 ///////////////
